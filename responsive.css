@@ -1,0 +1,39 @@
+@media (max-width: 641px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .message,
+  .score,
+  .highscore,
+  .label-highscore,
+  .label-score {
+    font-size: 1rem;
+  }
+  .guess {
+    width: 10rem;
+    height: 5rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+  }
+  .number {
+    font-size: 3rem;
+    width: 10rem;
+    padding: 1.5rem 0;
+  }
+}
+@media (max-width: 382px) {
+  .again {
+    top: 4rem;
+    left: 15rem;
+    align-items: center;
+  }
+  .between {
+    font-size: 0.8rem;
+    right: 12rem;
+  }
+  h1 {
+    line-height: 1.2;
+  }
+}
