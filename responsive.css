@@ -1,7 +1,4 @@
 @media (max-width: 641px) {
-  h1 {
-    font-size: 2rem;
-  }
   .message,
   .score,
   .highscore,
@@ -9,9 +6,17 @@
   .label-score {
     font-size: 1rem;
   }
+  .message {
+    margin-bottom: 3rem;
+  }
   .guess {
-    width: 10rem;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    width: 13rem;
     height: 5rem;
+  }
+  h1 {
+    font-size: 2rem;
   }
   .btn {
     font-size: 0.8rem;
